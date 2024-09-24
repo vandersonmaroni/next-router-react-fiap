@@ -1,5 +1,3 @@
-// pages/api/products.js
-
 import { NextApiRequest, NextApiResponse } from "next";
 
 let products = [

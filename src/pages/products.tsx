@@ -1,6 +1,4 @@
-// pages/index.js
 import { routes } from '@/router';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect, FormEvent } from 'react';
 
@@ -17,7 +15,7 @@ export default function Products() {
       .catch((error) => console.error('Erro ao buscar produtos:', error));
   }, []);
 
-  
+
   const handleHome = async () => {
     router.push(routes.home)
   }
